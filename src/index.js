@@ -21,7 +21,7 @@ firebase.initializeApp(
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
-const Context = createContext(null);
+export const Context = createContext(null);
 
 ReactDOM.render(
   <React.StrictMode>
