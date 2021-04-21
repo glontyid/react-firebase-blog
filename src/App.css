@@ -3,6 +3,7 @@
   padding: 0;
   outline: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .loader {
@@ -48,3 +49,16 @@
 }
 
 .post-name {}
+
+.input-group__doc-change {
+  display: none;
+}
+
+.input-group__doc-change.active {
+  display: flex;
+  max-width: 1094px;
+}
+
+.jumbotron {
+  padding: 2rem!important;
+}
