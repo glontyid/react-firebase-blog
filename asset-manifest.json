@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-firebase-blog/static/css/main.f0a95a1c.chunk.css",
+    "main.js": "/react-firebase-blog/static/js/main.567b721c.chunk.js",
+    "main.js.map": "/react-firebase-blog/static/js/main.567b721c.chunk.js.map",
+    "runtime-main.js": "/react-firebase-blog/static/js/runtime-main.a2b2270c.js",
+    "runtime-main.js.map": "/react-firebase-blog/static/js/runtime-main.a2b2270c.js.map",
+    "static/js/2.7d81d901.chunk.js": "/react-firebase-blog/static/js/2.7d81d901.chunk.js",
+    "static/js/2.7d81d901.chunk.js.map": "/react-firebase-blog/static/js/2.7d81d901.chunk.js.map",
+    "static/js/3.af718e95.chunk.js": "/react-firebase-blog/static/js/3.af718e95.chunk.js",
+    "static/js/3.af718e95.chunk.js.map": "/react-firebase-blog/static/js/3.af718e95.chunk.js.map",
+    "index.html": "/react-firebase-blog/index.html",
+    "static/css/main.f0a95a1c.chunk.css.map": "/react-firebase-blog/static/css/main.f0a95a1c.chunk.css.map",
+    "static/js/2.7d81d901.chunk.js.LICENSE.txt": "/react-firebase-blog/static/js/2.7d81d901.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-firebase-blog/static/media/loader.551bea88.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2b2270c.js",
+    "static/js/2.7d81d901.chunk.js",
+    "static/css/main.f0a95a1c.chunk.css",
+    "static/js/main.567b721c.chunk.js"
+  ]
+}
