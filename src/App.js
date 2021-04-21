@@ -6,6 +6,7 @@ import {useContext} from "react";
 import {Context} from "./index";
 import {useAuthState} from "react-firebase-hooks/auth";
 import Loader from "./components/loader";
+import Posts from "./components/Posts/Posts";
 
 const App = () => {
   const {auth} = useContext(Context)
@@ -17,7 +18,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header/>
-      <AppRouter/>
+      <Posts/>
     </BrowserRouter>
   );
 }
