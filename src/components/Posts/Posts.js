@@ -105,7 +105,7 @@ const Posts = () => {
               <p className="lead">{post.text}</p>
               <hr className="my-4"/>
               <p>Author: {post.displayName} / {post.email}</p>
-              { user.uid === post.uid ?
+              { user && user.uid === post.uid ?
                 <div className="d-flex justify-content-end" style={{position:'absolute',top:'1rem',right:'1rem'}}>
                   <button type="button" className="close mr-2" style={{fontSize: '1rem'}} data-id={post.docToken} onClick={(e) => e.target.closest('.jumbotron').querySelector('.input-group__doc-change').classList.toggle('active')} aria-label="Close">
                     change

@@ -21,7 +21,6 @@ firebase.initializeApp(
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
-//firestore.settings({ timestampsInSnapshots: true });
 export const Context = createContext(null);
 
 ReactDOM.render(
