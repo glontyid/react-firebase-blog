@@ -82,8 +82,6 @@ const Posts = () => {
     });
 
     inputBlock.classList.remove('active')
-    setValueChanger('')
-    setTitleValueChanger('')
   }
 
   if (loading) {
@@ -118,8 +116,8 @@ const Posts = () => {
                 false
               }
               <div className="input-group m-2 position-absolute input-group__doc-change" style={{bottom:'0',left:'0'}}>
-                <input type="text" className="form-control input-title" style={{width:'25%',borderRadius:'.25rem 0 0 .25rem'}} onChange={event => setTitleValueChanger(event.target.value)} value={titleValueChanger} placeholder="Title"/>
-                <input type="text" className="form-control input-message mr-2" style={{width:'65%',borderRadius:'0 .25rem .25rem 0'}} onChange={event => setValueChanger(event.target.value)} value={valueChanger} placeholder="Message"/>
+                <input type="text" className="form-control input-title" style={{width:'25%',borderRadius:'.25rem 0 0 .25rem'}} onChange={event => setTitleValueChanger(event.target.value)} defaultValue={post.title} placeholder="Title"/>
+                <input type="text" className="form-control input-message mr-2" style={{width:'65%',borderRadius:'0 .25rem .25rem 0'}} onChange={event => setValueChanger(event.target.value)} defaultValue={post.text} placeholder="Message"/>
                 <button className="btn btn-outline-success" type="button" data-id={post.docToken} onClick={(e) => updatePost(e)}>Update</button>
               </div>
             </div>
